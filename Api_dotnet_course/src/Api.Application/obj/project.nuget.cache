@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NNU6WjwdqKte5LkGGvhw4g+SBbDNixSta+G3whmbxZilnPfxaJx9aF20ub8+xW0/ZZGmdJ9ufmwtnNJPRij2gg==",
+  "dgSpecHash": "ptj6cxLgjn4=",
   "success": true,
-  "projectFilePath": "D:\\ProjetosC#\\Api_dotnet_course\\src\\Api.Application\\application.csproj",
+  "projectFilePath": "D:\\ProjetosC#\\dotnet-study\\Api_dotnet_course\\src\\Api.Application\\application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

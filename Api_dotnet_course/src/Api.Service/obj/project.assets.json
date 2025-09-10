@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjetosC#\\Api_dotnet_course\\src\\Api.Service\\Service.csproj",
+      "projectUniqueName": "D:\\ProjetosC#\\dotnet-study\\Api_dotnet_course\\src\\Api.Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "D:\\ProjetosC#\\Api_dotnet_course\\src\\Api.Service\\Service.csproj",
+      "projectPath": "D:\\ProjetosC#\\dotnet-study\\Api_dotnet_course\\src\\Api.Service\\Service.csproj",
       "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjetosC#\\Api_dotnet_course\\src\\Api.Service\\obj\\",
+      "outputPath": "D:\\ProjetosC#\\dotnet-study\\Api_dotnet_course\\src\\Api.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"

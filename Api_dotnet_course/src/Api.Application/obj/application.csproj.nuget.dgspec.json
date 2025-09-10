@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjetosC#\\Api_dotnet_course\\src\\Api.Application\\application.csproj": {}
+    "D:\\ProjetosC#\\dotnet-study\\Api_dotnet_course\\src\\Api.Application\\application.csproj": {}
   },
   "projects": {
-    "D:\\ProjetosC#\\Api_dotnet_course\\src\\Api.Application\\application.csproj": {
+    "D:\\ProjetosC#\\dotnet-study\\Api_dotnet_course\\src\\Api.Application\\application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjetosC#\\Api_dotnet_course\\src\\Api.Application\\application.csproj",
+        "projectUniqueName": "D:\\ProjetosC#\\dotnet-study\\Api_dotnet_course\\src\\Api.Application\\application.csproj",
         "projectName": "application",
-        "projectPath": "D:\\ProjetosC#\\Api_dotnet_course\\src\\Api.Application\\application.csproj",
+        "projectPath": "D:\\ProjetosC#\\dotnet-study\\Api_dotnet_course\\src\\Api.Application\\application.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjetosC#\\Api_dotnet_course\\src\\Api.Application\\obj\\",
+        "outputPath": "D:\\ProjetosC#\\dotnet-study\\Api_dotnet_course\\src\\Api.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
