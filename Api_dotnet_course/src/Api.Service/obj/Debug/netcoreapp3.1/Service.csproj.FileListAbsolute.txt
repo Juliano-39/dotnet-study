@@ -1,0 +1,9 @@
+D:\ProjetosC#\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Service.deps.json
+D:\ProjetosC#\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Service.dll
+D:\ProjetosC#\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Service.pdb
+D:\ProjetosC#\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+D:\ProjetosC#\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+D:\ProjetosC#\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+D:\ProjetosC#\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
+D:\ProjetosC#\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
