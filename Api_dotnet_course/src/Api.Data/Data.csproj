@@ -1,7 +1,50 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <!--
+   Define o framework alvo.
+   Neste projeto, estamos usando o .NET Core 3.1 (netcoreapp3.1).
+   O framework alvo determina quais APIs do .NET e pacotes podem ser usados.
+ -->
+  
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <!-- 
+    Dependências NuGet do projeto (Entity Framework Core e provedores de banco). 
+    Cada referência é explicada abaixo.
+  -->
+  
+  <ItemGroup>
+    <!-- Entity Framework Core principal (ORM para .NET) -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    
+    <!-- Provedor para SQL Server (permite usar o EFCore com esse banco) -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.32" />
+    
+    <!-- Provedor para MySQL (permite usar com bancos MySQL) -->
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.2" />
+    
+    <!-- Ferramentas do EF Core (usadas para migrations, atualização de banco etc) -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    
+    <!-- Dependência usada para migrações e design-time do EF Core (não vai para produção,
+         mas essencial para scaffolding e criação de migrations) -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Mapping\" />
+    <Folder Include="Repository\" />
+  </ItemGroup>
+  <!-- Referência Domain -->
+  <ItemGroup>
+    <ProjectReference Include="..\Api.Domain\Domain.csproj" />
+  </ItemGroup>
 </Project>
