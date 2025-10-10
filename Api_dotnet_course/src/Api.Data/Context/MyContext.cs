@@ -1,4 +1,5 @@
-﻿using Domain.Entities; // Importa as entidades do domínio para serem mapeadas pelo EF Core
+﻿using Data.Mapping;
+using Domain.Entities; // Importa as entidades do domínio para serem mapeadas pelo EF Core
 using Microsoft.EntityFrameworkCore;
 
 namespace Data.Context
@@ -43,6 +44,9 @@ namespace Data.Context
         {
             // Chama a configuração padrão do EF Core.
             base.OnModelCreating(modelBuilder);
+            
+            modelBuilder.Entity<UserEntity>(new UserMap().Configure);
+            
             
             // Aqui podem ser adicionadas configurações específicas, ex:
             // modelBuilder.Entity<UserEntity>().ToTable("Users");

@@ -7,3 +7,15 @@ D:\ProjetosC#\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.
 D:\ProjetosC#\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
 D:\ProjetosC#\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
 D:\ProjetosC#\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Service.deps.json
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.json
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.dev.json
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Service.dll
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Service.pdb
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.genruntimeconfig.cache

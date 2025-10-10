@@ -16,3 +16,15 @@ D:\ProjetosC#\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\Cro
 D:\ProjetosC#\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CoreCompileInputs.cache
 D:\ProjetosC#\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.dll
 D:\ProjetosC#\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.pdb
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.deps.json
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.runtimeconfig.json
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.runtimeconfig.dev.json
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.dll
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.pdb
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csprojAssemblyReference.cache
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfoInputs.cache
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfo.cs
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CoreCompileInputs.cache
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.dll
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.pdb
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.genruntimeconfig.cache
