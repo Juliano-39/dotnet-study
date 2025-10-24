@@ -38,10 +38,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-  
-  <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
   <!-- Referência Domain -->
   <ItemGroup>
     <ProjectReference Include="..\Api.Domain\Domain.csproj" />

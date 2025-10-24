@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Data.Context;
+using Domain.Entities;
+using Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
+namespace Data.Repository
+{
+    public class BaseRepository<T> : IRepository<T> where T : BaseEntity
+    {
+        protected readonly MyContext _context;
+        private DbSet<T> _dbSet;
+        
+        public BaseRepository(MyContext context)
+        {
+            _context = context;
+            _dbSet = context.Set<T>();
+        }
+
+        public async Task<T> InsertAsync(T item)
+        {
+            try
+            {
+                if (item.Id == Guid.Empty)
+                {
+                    item.Id = Guid.NewGuid();
+                }
+                
+                item.CreatedAt = DateTime.UtcNow;
+                _dbSet.Add(item);
+                
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+               throw ex;
+            }
+
+            return item;
+        }
+
+        public Task<T> UpdateAsync(T item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> DeleteAsync(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<T> SelectAsync(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<T>> SelectAsync()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
