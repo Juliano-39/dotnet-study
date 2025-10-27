@@ -41,9 +41,26 @@ namespace Data.Repository
             return item;
         }
 
-        public Task<T> UpdateAsync(T item)
+        public async Task<T> UpdateAsync(T item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var result = await _dbSet.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
+                if (result == null)
+                    return null;
+                
+                item.UpdatedAt = DateTime.UtcNow;
+                item.CreatedAt = result.CreatedAt;
+                
+                _context.Entry(result).CurrentValues.SetValues(item);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return item;
         }
 
         public Task<bool> DeleteAsync(Guid id)
