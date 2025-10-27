@@ -48,5 +48,12 @@ namespace Domain.Interfaces
         /// </summary>
         /// <returns>Coleção de entidades do tipo T presentes no repositório.</returns>
         Task<IEnumerable<T>> SelectAsync();
+        
+        /// <summary>
+        /// Verifica se existe uma entidade com o identificador informado.
+        /// </summary>
+        /// <param name="id">Identificador único (GUID) da entidade a ser consultada.</param>
+        /// <returns>True se existir uma entidade com o Id fornecido, false caso contrário.</returns>
+        Task<bool>  ExistAsync(Guid id);
     }
 }
