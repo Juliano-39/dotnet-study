@@ -63,9 +63,22 @@ namespace Data.Repository
             return item;
         }
 
-        public Task<bool> DeleteAsync(Guid id)
+        public async Task<bool> DeleteAsync(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var result = await _dbSet.SingleOrDefaultAsync(p => p.Id.Equals(id));
+                if (result == null)
+                    return false;
+                
+                _dbSet.Remove(result);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public Task<T> SelectAsync(Guid id)
