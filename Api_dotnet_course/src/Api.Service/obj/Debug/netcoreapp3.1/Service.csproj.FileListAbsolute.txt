@@ -19,3 +19,10 @@ D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreap
 D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
 D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
 D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.genruntimeconfig.cache
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\CrossCutting.dll
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Data.dll
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.dll
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\Data.pdb
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\bin\Debug\netcoreapp3.1\CrossCutting.pdb
+D:\ProjetosC#\dotnet-study\Api_dotnet_course\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
